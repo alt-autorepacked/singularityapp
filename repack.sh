@@ -9,7 +9,7 @@ rm ./common.sh
 
 _package="singularityapp"
 
-epm play singularityapp --save-only
+epm play singularityapp --save-only --auto
 _add_repo_suffix
 download_version=$(_check_version_from_download)
 remote_version=$(_check_version_from_remote)
