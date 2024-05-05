@@ -21,5 +21,3 @@ if [ "$remote_version" != "$download_version" ]; then
 else
     echo "No new version to release. Current version: $download_version"
 fi
-
-rm common.sh
