@@ -15,6 +15,7 @@ jobs:
       matrix:
         branch:
           - sisyphus
+          - p11
           - p10
         arch:
           - amd64
