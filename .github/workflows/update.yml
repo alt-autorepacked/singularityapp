@@ -19,7 +19,7 @@ jobs:
           - p10
         arch:
           - amd64
-    uses: alt-autorepacked/common/.github/workflows/update.yml@192008ac10b0bdf936f0990c03d33b039f12e231
+    uses: alt-autorepacked/common/.github/workflows/update.yml@ff75659b10954565d4ba20dee4008f9331292c88
     with:
       branch: ${{ matrix.branch }}
       arch: ${{ matrix.arch }}
